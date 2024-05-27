@@ -1,0 +1,26 @@
+{
+  "name": "common-multilingual",
+  "version": "1.0.0",
+  "description": "Configuration for the multi language support",
+  "main": "index.ts",
+  "dependencies": {
+    "common-localstorage": "*",
+    "i18next": "*",
+    "language-translation": "*",
+    "react": "*",
+    "react-i18next": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "eslint-config-custom": "*",
+    "prettier": "*",
+    "tsconfig": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "i18next": "*",
+    "react": "*",
+    "react-i18next": "*"
+  }
+}

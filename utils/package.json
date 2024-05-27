@@ -1,0 +1,24 @@
+{
+    "name": "common-utils",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.ts",
+    "dependencies": {
+        "react": "*",
+        "react-native": "*",
+        "react-native-device-info": "*"
+    },
+    "devDependencies": {
+        "@types/react": "*",
+        "@types/react-native": "*",
+        "eslint-config-custom": "*",
+        "prettier": "*",
+        "tsconfig": "*",
+        "typescript": "*"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "react-native-device-info": "*"
+    }
+}

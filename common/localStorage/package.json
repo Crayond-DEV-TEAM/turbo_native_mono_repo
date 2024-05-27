@@ -1,0 +1,24 @@
+{
+  "name": "common-localstorage",
+  "version": "1.0.0",
+  "description": "MMKV package for local storage",
+  "main": "index.ts",
+  "dependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-mmkv": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "eslint-config-custom": "*",
+    "prettier": "*",
+    "tsconfig": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-mmkv": "*"
+  }
+}

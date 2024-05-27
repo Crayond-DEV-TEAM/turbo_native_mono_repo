@@ -1,0 +1,12 @@
+{
+    "name": "language-translation",
+    "version": "1.0.0",
+    "description": "Translation data for the multi language support",
+    "main": "index.ts",
+    "devDependencies": {
+        "eslint-config-custom": "*",
+        "prettier": "*",
+        "tsconfig": "*",
+        "typescript": "*"
+    }
+}

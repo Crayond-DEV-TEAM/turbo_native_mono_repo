@@ -1,0 +1,29 @@
+{
+    "name": "features-home",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.ts",
+    "dependencies": {
+        "@react-navigation/native": "*",
+        "@react-navigation/native-stack": "*",
+        "react": "*",
+        "react-native": "*",
+        "styled-components": "*"
+    },
+    "devDependencies": {
+        "@types/react": "*",
+        "@types/react-native": "*",
+        "@types/styled-components": "*",
+        "eslint-config-custom": "*",
+        "prettier": "*",
+        "tsconfig": "*",
+        "typescript": "*"
+    },
+    "peerDependencies": {
+        "@react-navigation/native": "*",
+        "@react-navigation/native-stack": "*",
+        "react": "*",
+        "react-native": "*",
+        "styled-components": "*"
+    }
+}

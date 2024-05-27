@@ -1,0 +1,9 @@
+// React Native Navigation
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+
+// {{camelCase name}} routes type
+export type {{pascalCase name}}StackParamList = {
+};
+
+// navigation, route type
+export type NavigationRouteType<T extends keyof {{pascalCase name}}StackParamList> = NativeStackScreenProps<{{pascalCase name}}StackParamList, T>;

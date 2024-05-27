@@ -1,0 +1,21 @@
+import {memo} from 'react';
+// Native components
+import { Text } from 'react-native';
+// Styled components
+import { {{pascalCase name}}Container } from './styles';
+// types
+import { T{{pascalCase name}} } from './types';
+
+export const {{pascalCase name}} = memo((props:T{{pascalCase name}}) => {
+  const { className = '' } = props;
+  return (
+    <{{pascalCase name}}Container
+      className={`${className}`}
+      {...props}
+    >
+      <Text>{{pascalCase name}} component</Text>
+     </{{pascalCase name}}Container>
+  )
+});
+
+{{pascalCase name}}.displayName = '{{pascalCase name}}';

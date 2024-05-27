@@ -1,0 +1,13 @@
+import React from 'react';
+// React Native Navigation
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+// types
+import { {{pascalCase name}}StackParamList } from './types';
+
+const {{pascalCase name}}Stack = createNativeStackNavigator<{{pascalCase name}}StackParamList>();
+
+export const {{pascalCase name}}StackRoutes = (): React.JSX.Element => {
+  return (
+    <{{pascalCase name}}Stack.Navigator initialRouteName={}></{{pascalCase name}}Stack.Navigator>
+  );
+};

@@ -1,0 +1,19 @@
+{
+  "name": "custom-hooks",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "eslint-config-custom": "*",
+    "prettier": "^2.4.1",
+    "tsconfig": "*",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
