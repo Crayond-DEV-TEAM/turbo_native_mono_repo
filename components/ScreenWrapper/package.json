@@ -1,20 +1,14 @@
 {
-    "name": "features-home",
+    "name": "components-screenwrapper",
     "version": "0.0.0",
     "description": "",
     "main": "index.ts",
     "dependencies": {
-        "@react-navigation/native": "*",
-        "@react-navigation/native-stack": "*",
         "custom-styled-components": "*",
-        "components-passwordfield": "*",
         "react": "*",
         "react-native": "*",
-        "styled-components": "*",
-        "components-button": "*",
-        "components-screenwrapper": "*",
-        "components-inputfield": "*",
-        "components-pinbutton": "*"
+        "react-native-safe-area-context": "*",
+        "styled-components": "*"
     },
     "devDependencies": {
         "@types/react": "*",
@@ -26,10 +20,9 @@
         "typescript": "*"
     },
     "peerDependencies": {
-        "@react-navigation/native": "*",
-        "@react-navigation/native-stack": "*",
         "react": "*",
         "react-native": "*",
+        "react-native-safe-area-context": "*",
         "styled-components": "*"
     }
 }

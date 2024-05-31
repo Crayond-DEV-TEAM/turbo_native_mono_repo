@@ -1,0 +1,25 @@
+{
+    "name": "components-inputfield",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.ts",
+    "dependencies": {
+        "react": "*",
+        "react-native": "*",
+        "styled-components": "*"
+    },
+    "devDependencies": {
+        "eslint-config-custom": "*",
+        "tsconfig": "*",
+        "prettier": "*",
+        "typescript": "*",
+        "@types/react": "*",
+        "@types/react-native": "*",
+        "@types/styled-components": "*"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "styled-components": "*"
+    }
+}

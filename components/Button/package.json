@@ -1,20 +1,13 @@
 {
-    "name": "features-home",
+    "name": "components-button",
     "version": "0.0.0",
     "description": "",
     "main": "index.ts",
     "dependencies": {
-        "@react-navigation/native": "*",
-        "@react-navigation/native-stack": "*",
-        "custom-styled-components": "*",
-        "components-passwordfield": "*",
         "react": "*",
         "react-native": "*",
         "styled-components": "*",
-        "components-button": "*",
-        "components-screenwrapper": "*",
-        "components-inputfield": "*",
-        "components-pinbutton": "*"
+        "react-native-svg": "*"
     },
     "devDependencies": {
         "@types/react": "*",
@@ -26,8 +19,6 @@
         "typescript": "*"
     },
     "peerDependencies": {
-        "@react-navigation/native": "*",
-        "@react-navigation/native-stack": "*",
         "react": "*",
         "react-native": "*",
         "styled-components": "*"

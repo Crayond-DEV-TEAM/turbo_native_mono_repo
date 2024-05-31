@@ -2,7 +2,8 @@
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
-    // "strict": true,
-    "jsx": "react-native",
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
   }
 }
